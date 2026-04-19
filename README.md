@@ -197,4 +197,4 @@ streamlit run dashboard/app.py
 
 ## 📜 License
 
-Academic Project
+This project is licensed under the MIT License.
