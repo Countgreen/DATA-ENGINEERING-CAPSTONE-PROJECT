@@ -142,11 +142,13 @@ project/
 - Streamlit dashboard
 
 ---
-
 ## 📊 Dashboard Preview
 
-![Dashboard](./assets/dashboard.png)
+### 🔹 Key Metrics & Prediction
+![Dashboard1](./assets/dashboard1.png)
 
+### 🔹 Distribution & Summary
+![Dashboard2](./assets/dashboard2.png)
 ---
 
 ## ▶️ Installation
