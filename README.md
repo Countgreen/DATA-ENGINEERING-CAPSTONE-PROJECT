@@ -51,8 +51,6 @@ H --> H3[Prediction]
 H --> I[Streamlit Dashboard]
 ```
 
----
-
 ## ⚙️ Tech Stack
 
 ### Programming
