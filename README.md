@@ -10,9 +10,9 @@
 
 ## 🚀 Project Overview
 
-The **Scalable Data Engineering Pipeline** is an end-to-end data processing system that simulates real-world data engineering workflows including ingestion, transformation, storage, validation, and visualization.
+The **Scalable Data Engineering Pipeline** is an end-to-end system that simulates real-world data workflows including ingestion, transformation, storage, validation, and visualization.
 
-This project demonstrates how modern data pipelines work using real-world financial data and integrates key concepts like streaming, ETL/ELT, distributed systems, and analytics dashboards.
+This project uses real financial data and demonstrates concepts like streaming, ETL/ELT, distributed systems, and analytics dashboards.
 
 ---
 
@@ -20,36 +20,39 @@ This project demonstrates how modern data pipelines work using real-world financ
 
 ```mermaid
 flowchart LR
+
 A[Real Dataset CSV] --> B[Streaming Simulation]
-B --> C[Data Ingestion (Pandas)]
+B --> C[Data Ingestion]
 C --> D[Data Processing]
 
-D --> D1[Cleaning]
-D --> D2[Rolling Average]
-D --> D3[Normalization]
-D --> D4[Large Data Simulation]
+D --> E[Cleaning]
+D --> F[Rolling Average]
+D --> G[Normalization]
+D --> H[Large Data Simulation]
 
-D --> E[Storage Layer (CSV/Data Lake)]
+D --> I[Storage Layer]
 
-E --> F[Data Quality Checks]
-F --> F1[Null Checks]
-F --> F2[Anomaly Detection]
+I --> J[Data Quality Checks]
+J --> K[Null Checks]
+J --> L[Anomaly Detection]
 
-F --> G[Distributed Systems Simulation]
+J --> M[Distributed Systems]
 
-G --> G1[Hadoop (Data Splitting)]
-G --> G2[Spark (Partitioning)]
-G --> G3[Kafka (Streaming Simulation)]
-G --> G4[Airflow (Scheduling)]
+M --> N[Hadoop]
+M --> O[Spark]
+M --> P[Kafka]
+M --> Q[Airflow]
 
-G --> H[Analytics Layer]
+M --> R[Analytics]
 
-H --> H1[KPI Calculation]
-H --> H2[Trend Detection]
-H --> H3[Prediction]
+R --> S[KPI Calculation]
+R --> T[Trend Detection]
+R --> U[Prediction]
 
-H --> I[Streamlit Dashboard]
+R --> V[Streamlit Dashboard]
 ```
+
+---
 
 ## ⚙️ Tech Stack
 
@@ -66,12 +69,12 @@ H --> I[Streamlit Dashboard]
 ### Database
 - SQLite
 
-### Concepts & Tools
-- ETL / ELT Pipelines
+### Concepts
+- ETL / ELT
 - Data Warehousing
 - Streaming Systems
 - Distributed Systems (Simulated)
-- Data Quality & Validation
+- Data Quality
 
 ---
 
@@ -103,40 +106,40 @@ project/
 ## 🧠 Data Engineering Pipeline
 
 ### 1️⃣ Data Source
-- Real-world financial dataset (CSV)
+- Real financial dataset (CSV)
 
-### 2️⃣ Streaming Simulation
-- Sequential data streaming to mimic real-time systems
+### 2️⃣ Streaming
+- Simulated real-time data flow
 
-### 3️⃣ Data Ingestion
-- CSV loading and merging using Pandas
+### 3️⃣ Ingestion
+- CSV loading and merging
 
-### 4️⃣ Data Processing
-- Data cleaning
-- Rolling average calculation
+### 4️⃣ Processing
+- Cleaning
+- Rolling average
 - Normalization
-- Large dataset simulation
+- Data scaling
 
-### 5️⃣ Data Storage
-- Stored in CSV (Data Lake simulation)
+### 5️⃣ Storage
+- CSV-based data lake
 
-### 6️⃣ Data Quality & Validation
-- Null checks
+### 6️⃣ Quality Checks
+- Null validation
 - Anomaly detection
 
 ### 7️⃣ Distributed Systems (Simulated)
-- Hadoop → Data splitting
-- Spark → Partitioning
-- Kafka → Streaming simulation
-- Airflow → Scheduling
+- Hadoop (splitting)
+- Spark (processing)
+- Kafka (streaming)
+- Airflow (scheduling)
 
-### 8️⃣ Analytics Layer
-- KPI calculation (avg, max, min)
+### 8️⃣ Analytics
+- KPIs
 - Trend detection
 - Prediction
 
 ### 9️⃣ Visualization
-- Interactive dashboard using Streamlit
+- Streamlit dashboard
 
 ---
 
@@ -146,16 +149,7 @@ project/
 
 ---
 
-## 🔍 Output
-
-- Real data streaming simulation  
-- Processed dataset  
-- Analytical insights  
-- Dashboard visualization  
-
----
-
-## ▶️ Installation and Setup
+## ▶️ Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
@@ -165,7 +159,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Project
+## ▶️ Run Project
 
 ```bash
 python streaming/stream.py
@@ -186,20 +180,19 @@ streamlit run dashboard/app.py
 
 ## 🔮 Future Improvements
 
-- Real Kafka & Hadoop integration  
-- Cloud deployment (AWS / GCP)  
-- Real-time APIs  
-- ML-based predictions  
+- Real Kafka & Hadoop  
+- Cloud deployment  
+- Live APIs  
+- ML predictions  
 
 ---
 
 ## 👨‍💻 Author
 
-**Harsh Verma**  
-CSE Student | Data Engineering Enthusiast  
+**Harsh Verma**
 
 ---
 
 ## 📜 License
 
-This project is for academic purposes.
+Academic Project
